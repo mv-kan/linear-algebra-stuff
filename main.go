@@ -1,5 +1,7 @@
 package main
 
+// https://github.com/mv-kan/linear-algebra-stuff
+
 type Scalar int
 
 /*
