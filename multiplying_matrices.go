@@ -112,5 +112,11 @@ func RunMultiplyingMatrices() {
 	}
 	fmt.Println("Dot product 2:")
 	fmt.Printf("%v * %v = %v\n", m1, m2, DotProduct(m1, m2))
-
+	m1 = [][]int{
+		{1, 0, 0},
+		{0, 1, 0},
+		{0, 0, 1},
+	}
+	fmt.Println("Dot product (identity matrix): ")
+	fmt.Printf("%v * %v = %v\n", m1, m2, DotProduct(m1, m2))
 }
